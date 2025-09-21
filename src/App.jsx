@@ -30,7 +30,7 @@ function App() {
         </main>
 
         {/* Footer always visible */}
-        <Footer />
+       
       </div>
     </Layout>
 

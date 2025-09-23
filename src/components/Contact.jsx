@@ -13,9 +13,7 @@ export default function Contact() {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setIsVisible(true);
-      },
+      ([entry]) => setIsVisible(entry.isIntersecting),
       { threshold: 0.3 }
     );
 
@@ -99,6 +97,7 @@ export default function Contact() {
 
           {/* Contact Info + Map */}
           <div className="flex flex-col gap-6 w-full lg:w-1/2 mx-auto mt-8 lg:mt-0">
+            {/* Contact Info */}
             <div className="neuro-card-dark p-6 sm:p-8">
               <h3 className="text-2xl font-semibold text-white mb-6">Contact Information</h3>
               <div className="space-y-4">
@@ -108,14 +107,14 @@ export default function Contact() {
                     href={item.link}
                     target={item.link.startsWith("http") ? "_blank" : "_self"}
                     rel={item.link.startsWith("http") ? "noopener noreferrer" : ""}
-                    className="flex items-center space-x-4 p-4 neuro-button-dark hover:scale-105 transition-all duration-300 group"
+                    className="flex items-start sm:items-center space-x-4 p-4 neuro-button-dark hover:scale-105 transition-all duration-300 group"
                   >
-                    <div className="glass-effect p-3 rounded-full">
+                    <div className="glass-effect p-3 rounded-full flex-shrink-0">
                       <item.icon className="w-6 h-6 text-blue-400" />
                     </div>
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <div className="font-semibold text-white">{item.title}</div>
-                      <div className="text-gray-300 group-hover:text-blue-400 transition-colors duration-300">
+                      <div className="text-gray-300 group-hover:text-blue-400 transition-colors duration-300 break-words truncate">
                         {item.content}
                       </div>
                     </div>
@@ -124,6 +123,7 @@ export default function Contact() {
               </div>
             </div>
 
+            {/* Map */}
             <div className="neuro-card-dark overflow-hidden rounded-xl">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3801.385002231267!2d75.9224854!3d17.6695272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5da51b34a4807%3A0x2289c89225793081!2sPravin%20Enterprises!5e0!3m2!1sen!2sin"

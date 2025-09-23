@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowLeft, Calendar, MapPin, Users } from "lucide-react";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -13,7 +13,7 @@ export default function VidhansabhaCateringProject() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
           <Link
-            to={createPageUrl("Projects")}
+            to="/projects"
             className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300 mb-8 group"
           >
             <ArrowLeft className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-300" />

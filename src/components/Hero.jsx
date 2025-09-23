@@ -27,12 +27,19 @@ export default function Hero() {
   ];
 
   return (
-    <section 
-      className="min-h-screen parallax-bg relative flex items-center justify-center text-white overflow-hidden"
-      style={{
-        backgroundImage: `linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 58, 138, 0.7)), url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/272c013aa_PravinEnterprisesSolapurBannerDesign.png')`
-      }}
+<section
+  className="
+    min-h-screen relative flex items-center justify-center text-white overflow-hidden
+    bg-top
+    py-15
+    bg-contain sm:bg-cover   /* 👈 contain on mobile, cover on desktop */
+    sm:bg-center
+    bg-[linear-gradient(135deg,rgba(15,23,42,0.8),rgba(30,58,138,0.7)),url('/PE.png')]
+    sm:bg-[linear-gradient(135deg,rgba(15,23,42,0.8),rgba(30,58,138,0.7)),url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/272c013aa_PravinEnterprisesSolapurBannerDesign.png')]
+  "
+
     >
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl animate-pulse animate-delay-500"></div>
@@ -46,14 +53,11 @@ export default function Hero() {
           </h1>
         </div>
         
-        <p className="text-xl md:text-2xl mb-12 text-gray-300 max-w-4xl mx-auto animate-fade-in-up animate-delay-300 leading-relaxed">
-          Delivering quality and timely results for government projects with years of proven excellence and unwavering commitment to infrastructure development
-        </p>
-        
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-fade-in-up animate-delay-500">
           <Link
             to="/projects"
-            className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
+            className="mt-30 sm:mt-0 md:mt-0 group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
+
           >
             View Projects 
             <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300" />

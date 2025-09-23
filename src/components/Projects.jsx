@@ -84,7 +84,8 @@ export default function Projects() {
             {projects.map((project, index) => (
               <Link
                 key={project.id}
-                to="/project"
+                to={`/${project.pageUrl}`}
+
                 className={`group neuro-card-dark overflow-hidden hover:scale-105 transition-all duration-500 animate-scale-in animate-delay-${index * 100 + 300} block`}
               >
                 <div className="relative overflow-hidden">

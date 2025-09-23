@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="bg-gray-900 overflow-x-hidden">
       <Header />
-      <main className="pt-24">
+      <main className="pt-24 w-full max-w-full">
         <ContactComponent />
       </main>
       <Footer />

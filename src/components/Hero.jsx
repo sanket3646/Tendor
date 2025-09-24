@@ -48,7 +48,7 @@ export default function Hero() {
         {/* Hero Text - fixed height so buttons/stats are not pushed */}
         <div className="animate-fade-in-up h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px] flex items-center justify-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            <span className="font-[Avenir] text-white/50 typing-animation text-xl md:text-2xl sm:text-4xl lg:text-4xl">
+            <span className=" [font-family:'Times New Roman',serif] text-white/50 typing-animation text-xl md:text-2xl sm:text-4xl lg:text-4xl">
               {typedText}
             </span>
           </h1>

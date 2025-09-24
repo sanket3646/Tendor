@@ -60,7 +60,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-fade-in-up animate-delay-500">
           <Link
             to="/projects"
-            className="mt-70 sm:mt-0 md:mt-0 group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
+            className="mt-50 sm:mt-0 md:mt-0 group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
 
           >
             View Projects 

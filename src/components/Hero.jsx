@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   const [typedText, setTypedText] = useState('');
-  const fullText = "Trusted Government Tender Contractor in Solapur";
+  const fullText = "TRUSTED GOVERNMENT TENDOR CONTRACTOR IN SOLAPUR";
 
   useEffect(() => {
     let index = 0;
@@ -30,13 +30,16 @@ export default function Hero() {
 <section
   className="
     min-h-screen relative flex items-center justify-center text-white overflow-hidden
-    bg-top
+    bg-gray-900
+    bg-no-repeat bg-top
     py-15
-    bg-contain sm:bg-cover   /* 👈 contain on mobile, cover on desktop */
+    bg-contain sm:bg-cover
     sm:bg-center
-    bg-[linear-gradient(135deg,rgba(15,23,42,0.8),rgba(30,58,138,0.7)),url('/PE.png')]
-    sm:bg-[linear-gradient(135deg,rgba(15,23,42,0.8),rgba(30,58,138,0.7)),url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/272c013aa_PravinEnterprisesSolapurBannerDesign.png')]
+    bg-[url('/PE.png')]
+    sm:bg-[url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/272c013aa_PravinEnterprisesSolapurBannerDesign.png')]
   "
+
+
 
     >
 
@@ -49,14 +52,15 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="gradient-text typing-animation">{typedText}</span>
+          <span className="font-[Avenir] text-white/50 typing-animation text-xl">{typedText}</span>
+
           </h1>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 animate-fade-in-up animate-delay-500">
           <Link
             to="/projects"
-            className="mt-30 sm:mt-0 md:mt-0 group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
+            className="mt-70 sm:mt-0 md:mt-0 group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 font-semibold rounded-full hover:from-blue-700 hover:to-blue-800 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 text-lg"
 
           >
             View Projects 

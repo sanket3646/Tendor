@@ -49,7 +49,7 @@ export default function Projects() {
       id: 3,
       title: "Vidhansabha Elections – Catering Tender (2024)",
       category: "Catering Services",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/f6fab1ebb_IMG_20241120_1333061.jpg",
+      image: "VC.jpeg",
       description: "Successfully completed catering services tender for the Solapur District during the General Elections Maharashtra State Vidhansabha 2024. Provided catering for Election Commission officers and workers across all 11 constituencies of Solapur District.",
       year: "2024",
       location: "Solapur District",

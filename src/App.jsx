@@ -14,6 +14,7 @@ import LoksabhaCateringProject from "./pages/LoksabhaCateringProject";
 import LoksabhaVehicleProject from "./pages/LoksabhaVehicleProject";
 import VidhansabhaCateringProject from "./pages/VidhansabhaCateringProject";
 import VidhansabhaVehicleProject from "./pages/VidhansabhaVehicleProject";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
         {/* Main content */}
         <main className="flex-grow">
+          <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

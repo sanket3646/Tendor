@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Testimonials1 from "../components/Testimonials1";
 
 export default function LoksabhaCateringProject() {
   return (
@@ -134,10 +135,12 @@ export default function LoksabhaCateringProject() {
                     Security Compliance
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
         </div>
+        <Testimonials1/>
       </main>
       <Footer />
     </div>

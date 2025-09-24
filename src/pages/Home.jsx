@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import PhotoGallery from "../components/PhotoGallery";
-import Testimonials from "../components/Testimonials";
+
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -11,8 +11,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PhotoGallery />
-        <Testimonials />
+        <PhotoGallery />     
       </main>
       <Footer />
     </div>

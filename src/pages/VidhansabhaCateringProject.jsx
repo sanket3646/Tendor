@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Testimonials2 from "../components/Testimonials2";
 
 export default function VidhansabhaCateringProject() {
   return (
@@ -117,6 +118,7 @@ export default function VidhansabhaCateringProject() {
           </div>
         </div>
       </main>
+      <Testimonials2/>
       <Footer />
     </div>
   );

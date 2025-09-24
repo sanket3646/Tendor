@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
-export default function Testimonials() {
+export default function Testimonials1() {
   const [isVisible, setIsVisible] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const testimonialsRef = useRef(null);
@@ -42,18 +42,7 @@ export default function Testimonials() {
       content: "संयुक्त आहे, स्वच्छता चांगली आहे. अन्नपदार्थ व भाजीपाला ताज्या वापरल्या जात असल्याने जेवणाची चव उत्तम आहे, नियोजन उत्कृष्ट आहे.",
       rating: 5,
     },
-    {
-      name: "प्रताप सर",
-      position: "",
-      content: "घरामध्ये जेवल्यासारखे वाटले, एकदम मस्त जेवण.",
-      rating: 5,
-    },
-    {
-      name: "स्मिता गायकवाड मॅडम",
-      position: "",
-      content: "जेवणाची सोय चांगली आहे, व्यवस्थित व स्वच्छता चांगली आहे.",
-      rating: 5,
-    }
+
   ];
 
   const nextTestimonial = useCallback(() => {

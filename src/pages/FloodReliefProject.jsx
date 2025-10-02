@@ -57,8 +57,9 @@ export default function FloodReliefProject() {
               <div>
                 <h2 className="text-2xl font-bold text-white mb-4">Project Overview</h2>
                 <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                  During the devastating flood situation in Solapur District in September 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+ food parcels to people in need. This relief effort was aimed at supporting affected families, stranded individuals, and rescue teams with nutritious and hygienic meals during the crisis.
-Our team worked tirelessly to prepare, package, and deliver meals under challenging conditions, ensuring timely assistance and maximum outreach. This project reflected our strong sense of social responsibility and commitment to community welfare in times of disaster.
+                  During the devastating floods in Solapur District in September 2025, the Government, through Pravin Enterprises, successfully distributed more than 10,000 food parcels to those in need. This humanitarian initiative provided vital support to affected families, stranded individuals, and rescue teams with hygienic and nutritious meals during the crisis.
+
+Working under government directives, Pravin Enterprises ensured timely preparation, packaging, and delivery of meals despite challenging conditions. This relief effort reflects our firm’s commitment to quality, efficiency, and community welfare during times of disaster
                 </p>
                 <p className="text-gray-300 leading-relaxed text-lg">
                   Our team ensured timely delivery of nutritious meals, maintaining the highest standards of food safety and quality throughout the election period. The project required careful coordination with election officials and adherence to strict security protocols.

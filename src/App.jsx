@@ -15,6 +15,7 @@ import LoksabhaVehicleProject from "./pages/LoksabhaVehicleProject";
 import VidhansabhaCateringProject from "./pages/VidhansabhaCateringProject";
 import VidhansabhaVehicleProject from "./pages/VidhansabhaVehicleProject";
 import ScrollToTop from "./components/ScrollToTop";
+import FloodReliefProject from "./pages/FloodReliefProject";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/LoksabhaVehicleProject" element={<LoksabhaVehicleProject />} />
           <Route path="/VidhansabhaCateringProject" element={<VidhansabhaCateringProject />} />
           <Route path="/VidhansabhaVehicleProject" element={<VidhansabhaVehicleProject />} />
+          <Route path="/FloodReliefProject" element={<FloodReliefProject/>} />
         </Routes>
 
         </main>

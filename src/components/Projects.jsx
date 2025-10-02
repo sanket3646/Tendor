@@ -67,13 +67,13 @@ export default function Projects() {
     },
         {
       id: 5,
-      title: "Flood Help Project",
-      category: "Vehicle Services",
-      image: "FloodProject.JPG",
-      description: "Successfully completed vehicle services tender for the Solapur District during the General Elections Maharashtra State Vidhansabha 2024. Provided vehicles, including mobile campaigning vans and election surveillance vehicles, for Election Commission officers and workers across all 11 constituencies of Solapur District.",
+      title: "Flood Relief Project",
+      category: "Flood relief",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg",
+      description: "During the devastating flood situation in Solapur District in September 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+",
       year: "2025",
       location: "Solapur District",
-      pageUrl: "VidhansabhaVehicleProject"
+      pageUrl: "FloodReliefProject"
     }
   ];
 

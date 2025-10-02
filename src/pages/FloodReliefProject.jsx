@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export default function VidhansabhaVehicleProject() {
+export default function FloodReliefProject() {
   return (
     <div className="min-h-screen bg-gray-900">
       <Header />
@@ -37,14 +37,14 @@ export default function VidhansabhaVehicleProject() {
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold gradient-text mb-8">
-              Vidhansabha Elections – Vehicle Tender (2024)
+              🌊 Solapur Flood Relief – Food Parcel Donation (2025)
             </h1>
           </div>
 
           {/* Hero Image */}
           <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/e9aa431f6_IMG202409111332234.jpg"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg"
               alt="Vehicle services for Vidhansabha Elections"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
             />
@@ -56,31 +56,30 @@ export default function VidhansabhaVehicleProject() {
               <div>
                 <h2 className="text-2xl font-bold text-white mb-4">Project Overview</h2>
                 <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                  Successfully completed vehicle services tender for the Solapur District during the General Elections Maharashtra State Vidhansabha 2024. This comprehensive project involved managing vehicle services across all 11 constituencies of Solapur District, representing our largest transportation logistics operation.
+                    During the devastating flood situation in Solapur District in 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+ food parcels to people in need. This relief effort was aimed at supporting affected families, stranded individuals, and rescue teams with nutritious and hygienic meals during the crisis.
+                    Our team worked tirelessly to prepare, package, and deliver meals under challenging conditions, ensuring timely assistance and maximum outreach. This project reflected our strong sense of social responsibility and commitment to community welfare in times of disaster.        
                 </p>
-                <p className="text-gray-300 leading-relaxed text-lg">
-                  The project required deploying and coordinating a large fleet of vehicles across multiple constituencies simultaneously, including mobile campaigning vans and election surveillance vehicles, ensuring seamless operations throughout the extended election period.
-                </p>
+                
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-white mb-4">Comprehensive Services</h3>
+                <h3 className="text-xl font-semibold text-white mb-4">Project Scope</h3>
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Vehicle deployment across all 11 constituencies of Solapur District
+                    Distribution of 10,000+ food parcels every day across multiple flood-affected areas in Solapur District
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Mobile campaigning vans for widespread election activities
+                    Direct support to flood-affected families, individuals, and relief workers
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Election surveillance vehicles for comprehensive monitoring
+                    Deployment of a dedicated team for 24/7 meal preparation and distribution during peak crisis
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Coordinated transportation for Election Commission staff district-wide
+                    Ensuring hygiene, food safety, and quick delivery despite adverse conditions
                   </li>
                 </ul>
               </div>
@@ -93,27 +92,49 @@ export default function VidhansabhaVehicleProject() {
                   <div className="flex items-center">
                     <Truck className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
-                      <div className="text-white font-medium">11 Constituencies</div>
-                      <div className="text-gray-400 text-sm">Entire Solapur District</div>
+                      <div className="text-white font-medium">Daily 10,000 parcels</div>
+                      <div className="text-gray-400 text-sm">North Solapur, South Solapur, Mohol, Madha</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Calendar className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Duration</div>
-                      <div className="text-gray-400 text-sm">Election Period 2024</div>
+                      <div className="text-gray-400 text-sm">8 days</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Location</div>
-                      <div className="text-gray-400 text-sm">All Solapur District</div>
+                      <div className="text-gray-400 text-sm">North Solapur, South Solapur, Mohol, Madha</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+             <div className="neuro-card-dark p-6">
+                <h3 className="text-xl font-semibold text-white mb-4">Key Features</h3>
+                <div className="space-y-3 text-gray-300">
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Community Support
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Quick Response During Crisis
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Hygienic and Nutritious Meals
+                  </div>
+                  <div className="flex items-center">
+                    <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
+                    Social Responsibility in Action
+                  </div>
+                </div>
+                
+              </div>
           </div>
         </div>
       </main>

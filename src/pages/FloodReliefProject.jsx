@@ -93,7 +93,7 @@ export default function FloodReliefProject() {
                     <Truck className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Daily 10,000 parcels</div>
-                      <div className="text-gray-400 text-sm">North Solapur, South Solapur, Mohol, Madha</div>
+                      <div className="text-gray-400 text-sm">Solapur District</div>
                     </div>
                   </div>
                   <div className="flex items-center">

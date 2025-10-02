@@ -24,11 +24,11 @@ export default function FloodReliefProject() {
           <div className="animate-fade-in-up">
             <div className="flex flex-wrap items-center gap-4 mb-6">
               <span className="glass-effect px-4 py-2 text-sm font-medium text-blue-300 rounded-full">
-                Vehicle Services
+                Flood Relief
               </span>
               <div className="flex items-center text-gray-400">
                 <Calendar className="w-4 h-4 mr-2" />
-                2024
+                2025
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="w-4 h-4 mr-2" />

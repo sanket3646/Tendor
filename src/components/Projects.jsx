@@ -25,16 +25,17 @@ export default function Projects() {
   }, []);
 
   const projects = [
-    {
-      id: 5,
-      title: "Loksabha Elections – Catering Tender (2024)",
-      category: "Catering Services",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg",
-      description: "Successfully completed catering services tender for the Solapur District during the General Elections Lok Sabha 2024. Provided catering for Election Commission officers and workers across 2 constituencies: Solapur Lok Sabha and Madha Lok Sabha.",
-      year: "2024",
+            {
+      id: 1,
+      title: "Flood Relief Project",
+      category: "Flood relief",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg",
+      description: "During the devastating flood situation in Solapur District in September 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+",
+      year: "2025",
       location: "Solapur District",
-      pageUrl: "LoksabhaCateringProject"
+      pageUrl: "FloodReliefProject"
     },
+
     {
       id: 2,
       title: "Loksabha Elections – Vehicle Tender (2024)",
@@ -66,15 +67,16 @@ export default function Projects() {
       pageUrl: "VidhansabhaVehicleProject"
     },
         {
-      id: 1,
-      title: "Flood Relief Project",
-      category: "Flood relief",
-      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg",
-      description: "During the devastating flood situation in Solapur District in September 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+",
-      year: "2025",
+      id: 5,
+      title: "Loksabha Elections – Catering Tender (2024)",
+      category: "Catering Services",
+      image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg",
+      description: "Successfully completed catering services tender for the Solapur District during the General Elections Lok Sabha 2024. Provided catering for Election Commission officers and workers across 2 constituencies: Solapur Lok Sabha and Madha Lok Sabha.",
+      year: "2024",
       location: "Solapur District",
-      pageUrl: "FloodReliefProject"
-    }
+      pageUrl: "LoksabhaCateringProject"
+    },
+
   ];
 
   return (

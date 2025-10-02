@@ -1,9 +1,10 @@
 import React from "react";
-import { ArrowLeft, Calendar, MapPin, Truck } from "lucide-react";
+import { ArrowLeft, Calendar, MapPin, Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+
 
 export default function FloodReliefProject() {
   return (
@@ -44,8 +45,8 @@ export default function FloodReliefProject() {
           {/* Hero Image */}
           <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg"
-              alt="Vehicle services for Vidhansabha Elections"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg"
+              alt="Flood Relief food image"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
             />
           </div>
@@ -56,10 +57,12 @@ export default function FloodReliefProject() {
               <div>
                 <h2 className="text-2xl font-bold text-white mb-4">Project Overview</h2>
                 <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                    During the devastating flood situation in Solapur District in 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+ food parcels to people in need. This relief effort was aimed at supporting affected families, stranded individuals, and rescue teams with nutritious and hygienic meals during the crisis.
-                    Our team worked tirelessly to prepare, package, and deliver meals under challenging conditions, ensuring timely assistance and maximum outreach. This project reflected our strong sense of social responsibility and commitment to community welfare in times of disaster.        
+                  During the devastating flood situation in Solapur District in September 2025, Pravin Enterprises took a humanitarian initiative by distributing 10,000+ food parcels to people in need. This relief effort was aimed at supporting affected families, stranded individuals, and rescue teams with nutritious and hygienic meals during the crisis.
+Our team worked tirelessly to prepare, package, and deliver meals under challenging conditions, ensuring timely assistance and maximum outreach. This project reflected our strong sense of social responsibility and commitment to community welfare in times of disaster.
                 </p>
-                
+                <p className="text-gray-300 leading-relaxed text-lg">
+                  Our team ensured timely delivery of nutritious meals, maintaining the highest standards of food safety and quality throughout the election period. The project required careful coordination with election officials and adherence to strict security protocols.
+                </p>
               </div>
 
               <div>
@@ -67,7 +70,7 @@ export default function FloodReliefProject() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Distribution of 10,000+ food parcels every day across multiple flood-affected areas in Solapur District
+                    Distribution of 10,000+ food parcels across multiple flood-affected areas in Solapur District
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -90,17 +93,17 @@ export default function FloodReliefProject() {
                 <h3 className="text-xl font-semibold text-white mb-4">Project Stats</h3>
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <Truck className="w-5 h-5 text-blue-400 mr-3" />
+                    <Users className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Daily 10,000 parcels</div>
-                      <div className="text-gray-400 text-sm">Solapur District</div>
+                      <div className="text-gray-400 text-sm">Solapur, Mohol, Madha</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Calendar className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Duration</div>
-                      <div className="text-gray-400 text-sm">8 days</div>
+                      <div className="text-gray-400 text-sm">8 Days</div>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -112,8 +115,8 @@ export default function FloodReliefProject() {
                   </div>
                 </div>
               </div>
-            </div>
-             <div className="neuro-card-dark p-6">
+
+              <div className="neuro-card-dark p-6">
                 <h3 className="text-xl font-semibold text-white mb-4">Key Features</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center">
@@ -126,7 +129,8 @@ export default function FloodReliefProject() {
                   </div>
                   <div className="flex items-center">
                     <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
-                    Hygienic and Nutritious Meals
+                   Hygienic & Nutritious Meals
+
                   </div>
                   <div className="flex items-center">
                     <span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
@@ -135,8 +139,10 @@ export default function FloodReliefProject() {
                 </div>
                 
               </div>
+            </div>
           </div>
         </div>
+        
       </main>
       <Footer />
     </div>

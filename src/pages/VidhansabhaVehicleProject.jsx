@@ -37,7 +37,7 @@ export default function VidhansabhaVehicleProject() {
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold gradient-text mb-8">
-              Vidhansabha Elections – Vehicle Tender (2024)
+              Flood Help Project (2025)
             </h1>
           </div>
 

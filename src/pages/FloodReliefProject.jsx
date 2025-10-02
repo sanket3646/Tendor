@@ -45,7 +45,7 @@ export default function FloodReliefProject() {
           {/* Hero Image */}
           <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg"
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg"
               alt="Flood Relief food image"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
             />

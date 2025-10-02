@@ -26,7 +26,7 @@ export default function Projects() {
 
   const projects = [
     {
-      id: 1,
+      id: 5,
       title: "Loksabha Elections – Catering Tender (2024)",
       category: "Catering Services",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg",
@@ -66,7 +66,7 @@ export default function Projects() {
       pageUrl: "VidhansabhaVehicleProject"
     },
         {
-      id: 5,
+      id: 1,
       title: "Flood Relief Project",
       category: "Flood relief",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg",

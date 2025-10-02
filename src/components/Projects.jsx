@@ -64,6 +64,16 @@ export default function Projects() {
       year: "2024",
       location: "Solapur District",
       pageUrl: "VidhansabhaVehicleProject"
+    },
+        {
+      id: 5,
+      title: "Flood Help Project",
+      category: "Vehicle Services",
+      image: "FloodProject.JPG",
+      description: "Successfully completed vehicle services tender for the Solapur District during the General Elections Maharashtra State Vidhansabha 2024. Provided vehicles, including mobile campaigning vans and election surveillance vehicles, for Election Commission officers and workers across all 11 constituencies of Solapur District.",
+      year: "2025",
+      location: "Solapur District",
+      pageUrl: "VidhansabhaVehicleProject"
     }
   ];
 

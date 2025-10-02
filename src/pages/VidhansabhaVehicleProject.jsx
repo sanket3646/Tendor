@@ -44,7 +44,7 @@ export default function VidhansabhaVehicleProject() {
           {/* Hero Image */}
           <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/e9aa431f6_IMG202409111332234.jpg"
+              src="public\FloodProject.JPG"
               alt="Vehicle services for Vidhansabha Elections"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
             />
@@ -93,22 +93,22 @@ export default function VidhansabhaVehicleProject() {
                   <div className="flex items-center">
                     <Truck className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
-                      <div className="text-white font-medium">11 Constituencies</div>
-                      <div className="text-gray-400 text-sm">Entire Solapur District</div>
+                      <div className="text-white font-medium">Daily 10,000 parcels</div>
+                      <div className="text-gray-400 text-sm">North Solapur, South Solapur, Mohol, Madha</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Calendar className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Duration</div>
-                      <div className="text-gray-400 text-sm">Election Period 2024</div>
+                      <div className="text-gray-400 text-sm">8 days</div>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-5 h-5 text-blue-400 mr-3" />
                     <div>
                       <div className="text-white font-medium">Location</div>
-                      <div className="text-gray-400 text-sm">All Solapur District</div>
+                      <div className="text-gray-400 text-sm">North Solapur, South Solapur, Mohol, Madha</div>
                     </div>
                   </div>
                 </div>

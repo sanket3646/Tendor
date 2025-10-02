@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="md:col-span-2 space-y-6 animate-slide-in-left">
             <h3 className="text-3xl font-bold gradient-text">Pravin Enterprises</h3>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Your trusted government tender contractor in Solapur, specializing in infrastructure development, building construction, and project management with proven excellence and unwavering commitment to quality.
+              Pravin Enterprises, Solapur – A trusted government contract firm specializing in office administrative support, food & beverage services, travel and tour operations, publishing, photography & videography, and other professional activities with over 10 years of proven excellence
             </p>
             <div className="flex space-x-4">
               <a

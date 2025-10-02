@@ -73,6 +73,7 @@ export default function Hero() {
         </div>
 
         {/* Stats Section */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl w-full mt-16">
           {stats.map((stat, index) => (
             <div 

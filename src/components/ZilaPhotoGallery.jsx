@@ -52,14 +52,14 @@ export default function PhotoGallery() {
   return (
     <section ref={galleryRef} className="py-10 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
+        <div className="neuro-card-dark p-2 mb-12 animate-scale-in animate-delay-300">
           <div
             className={`transition-all duration-1000 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}
           >
             <div className="max-w-4xl mx-auto">
               <div className="neuro-card-dark overflow-hidden animate-scale-in animate-delay-200">
                 <div className="relative overflow-hidden group">
-                  <div className="relative w-full h-90 md:h-100">
+                  <div className="relative w-full h-64 sm:h-80 md:h-100">
                     {slideshowImages.map((src, index) => (
                       <img
                         key={src}

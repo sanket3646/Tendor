@@ -28,7 +28,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Zila Parishad and Panchayat Samiti Elections - 2025",
-      category: "Flood relief",
+      category: "Elections",
       image: "src/assets/zilaparishadcover.jpeg",
       description: "During the 2025 Zila Parishad and Panchayat Samiti Elections in Solapur District, our team successfully managed large-scale catering services for election officials and administrative staff.",
       year: "2025",

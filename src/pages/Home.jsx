@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import PhotoGallery from "../components/PhotoGallery";
+import PhotoGallery from "../components/HomePhotoGallery";
 
 import Footer from "../components/Footer";
 

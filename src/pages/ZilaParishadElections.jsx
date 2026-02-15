@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import zilaInside from "../assets/zilaparishadinside.jpeg";
+import PhotoGallery from "../components/ZilaPhotoGallery";
 
 
 export default function FloodReliefProject() {
@@ -44,13 +44,7 @@ export default function FloodReliefProject() {
           </div>
 
           {/* Hero Image */}
-          <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
-            <img
-              src= {zilaInside}
-              alt="Zila parishad project image"
-              className="w-full h-64 md:h-96 object-cover rounded-xl"
-            />
-          </div>
+          <PhotoGallery/>
 
           {/* Project Details */}
           <div className="grid lg:grid-cols-3 gap-12 mb-12">

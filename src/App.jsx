@@ -16,6 +16,7 @@ import VidhansabhaCateringProject from "./pages/VidhansabhaCateringProject";
 import VidhansabhaVehicleProject from "./pages/VidhansabhaVehicleProject";
 import ScrollToTop from "./components/ScrollToTop";
 import FloodReliefProject from "./pages/FloodReliefProject";
+import ZilaParishadElections from "./pages/ZilaParishadElections";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           <Route path="/VidhansabhaCateringProject" element={<VidhansabhaCateringProject />} />
           <Route path="/VidhansabhaVehicleProject" element={<VidhansabhaVehicleProject />} />
           <Route path="/FloodReliefProject" element={<FloodReliefProject/>} />
+          <Route path="/ZilaParishadElections" element={<ZilaParishadElections/>}/>
+
         </Routes>
 
         </main>

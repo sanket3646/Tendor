@@ -25,8 +25,18 @@ export default function Projects() {
   }, []);
 
   const projects = [
-            {
+    {
       id: 1,
+      title: "Zila Parishad and Panchayat Samiti Elections - 2025",
+      category: "Flood relief",
+      image: "src/assets/zilaparishadcover.jpeg",
+      description: "During the 2025 Zila Parishad and Panchayat Samiti Elections in Solapur District, our team successfully managed large-scale catering services for election officials and administrative staff.",
+      year: "2025",
+      location: "Solapur & Satara District",
+      pageUrl: "ZilaParishadElections"
+    },
+   {
+      id: 2,
       title: "Flood Relief Project",
       category: "Flood relief",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/aa8039894_IMG_36531.jpg",
@@ -37,7 +47,7 @@ export default function Projects() {
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Loksabha Elections – Vehicle Tender (2024)",
       category: "Vehicle Services", 
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/8dfb28260_20240424175912_IMG_63521.jpg",
@@ -47,7 +57,7 @@ export default function Projects() {
       pageUrl: "LoksabhaVehicleProject"
     },
     {
-      id: 3,
+      id: 4,
       title: "Vidhansabha Elections – Catering Tender (2024)",
       category: "Catering Services",
       image: "VC.jpeg",
@@ -57,7 +67,7 @@ export default function Projects() {
       pageUrl: "VidhansabhaCateringProject"
     },
     {
-      id: 4,
+      id: 5,
       title: "Vidhansabha Elections – Vehicle Tender (2024)",
       category: "Vehicle Services",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/e9aa431f6_IMG202409111332234.jpg",
@@ -67,7 +77,7 @@ export default function Projects() {
       pageUrl: "VidhansabhaVehicleProject"
     },
         {
-      id: 5,
+      id: 6,
       title: "Loksabha Elections – Catering Tender (2024)",
       category: "Catering Services",
       image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68c03428f112e80b1a3b1ccc/08f77b82a_IMG202404151344171.jpg",

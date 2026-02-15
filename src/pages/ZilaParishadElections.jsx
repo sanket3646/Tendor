@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import zilaInside from "../assets/zilaparishadinside.jpeg";
 
 
 export default function FloodReliefProject() {
@@ -45,8 +46,8 @@ export default function FloodReliefProject() {
           {/* Hero Image */}
           <div className="neuro-card-dark p-4 mb-12 animate-scale-in animate-delay-300">
             <img
-              src="src\assets\zilaparishadinside.jpeg"
-              alt="Flood Relief food image"
+              src= {zilaInside}
+              alt="Zila parishad project image"
               className="w-full h-64 md:h-96 object-cover rounded-xl"
             />
           </div>

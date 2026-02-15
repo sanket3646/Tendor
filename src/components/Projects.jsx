@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ExternalLink, Calendar, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import zilaCover from "../assets/zilaparishadcover.jpeg";
 
 
 export default function Projects() {
@@ -29,7 +30,7 @@ export default function Projects() {
       id: 1,
       title: "Zila Parishad and Panchayat Samiti Elections - 2025",
       category: "Elections",
-      image: "src/assets/zilaparishadcover.jpeg",
+      image: zilaCover,
       description: "During the 2025 Zila Parishad and Panchayat Samiti Elections in Solapur District, our team successfully managed large-scale catering services for election officials and administrative staff.",
       year: "2025",
       location: "Solapur & Satara District",
